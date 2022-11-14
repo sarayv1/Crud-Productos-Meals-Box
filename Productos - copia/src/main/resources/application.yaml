@@ -1,0 +1,13 @@
+server:
+  port: 2
+
+spring:
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+  datasource:
+    password:
+    username: root
+    url: jdbc:mysql://localhost:3306/MealsBox
